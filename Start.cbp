@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Start" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Start" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll/mswu" />
+					<Add directory="../../Users/Tarun/Desktop/mu/source/include" />
+					<Add directory="../../Users/Tarun/Desktop/mu/source/build/release" />
+					<Add directory="../../Users/Tarun/Desktop/pdf/wxpdfdoc-0.9.4/include" />
+					<Add directory="../../Users/Tarun/Desktop/pdf/wxpdfdoc-0.9.4/lib/gcc_dll" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw30u.a" />
+					<Add library="..\..\Users\Tarun\Desktop\pdf\wxpdfdoc-0.9.4\lib\gcc_dll\libwxcode_msw30u_pdfdoc.a" />
+					<Add library="..\Hope\libmupdf.a" />
+					<Add library="..\Hope\libfreetype.a" />
+					<Add library="..\Hope\libjbig2dec.a" />
+					<Add library="..\Hope\libjpeg.a" />
+					<Add library="..\Hope\libopenjpeg.a" />
+					<Add library="..\Hope\libz.a" />
+					<Add library="..\Hope\libmujs.a" />
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll" />
+					<Add directory="../../Users/Tarun/Desktop/pdf/wxpdfdoc-0.9.4/lib/gcc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Start" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u.a" />
+					<Add directory="C:/Users/Tarun/Desktop/wxWidgets/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Tarun/Desktop/wxWidgets/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/Users/Tarun/Desktop/wxWidgets/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+		</Linker>
+		<Unit filename="Document.cpp" />
+		<Unit filename="Document.h" />
+		<Unit filename="Grid.cpp" />
+		<Unit filename="Grid.h" />
+		<Unit filename="ImgPanel.cpp" />
+		<Unit filename="ImgPanel.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Main.h" />
+		<Unit filename="PanelA.cpp" />
+		<Unit filename="PanelA.h" />
+		<Unit filename="PanelB.cpp" />
+		<Unit filename="PanelB.h" />
+		<Unit filename="PanelC.cpp" />
+		<Unit filename="PanelC.h" />
+		<Unit filename="PanelD.cpp" />
+		<Unit filename="PanelD.h" />
+		<Unit filename="Utility.cpp" />
+		<Unit filename="Utility.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
